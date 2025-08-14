@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//WebContent/view_energy_usage.jsp=UTF-8
+encoding//src/com/ecosaver/servlets/InsertEnergyUsage.java=UTF-8
+encoding//src/com/ecosaver/servlets/UserLoginServlet.java=UTF-8
+encoding//src/com/ecosaver/servlets/UserRegisterServlet.java=UTF-8

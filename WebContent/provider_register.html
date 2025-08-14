@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSaver - Provider Registration</title>
+    <style>
+        /* Same styling from your login page */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background:
+                linear-gradient(180deg, rgba(26, 26, 46, 0.9) 0%, rgba(22, 33, 62, 0.9) 100%),
+                url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            width: 100%;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .logo {
+            font-size: 2.8em;
+            font-weight: 800;
+            background: linear-gradient(90deg, #00ddeb, #00b4d8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #e0e0e0;
+            margin: 20px 0 30px;
+            font-weight: 400;
+            opacity: 0.85;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        label {
+            color: #e0e0e0;
+            font-size: 0.9em;
+            font-weight: 500;
+            margin-bottom: 8px;
+            display: block;
+        }
+        input {
+            padding: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+            font-size: 1em;
+            width: 100%;
+        }
+        input:focus {
+            outline: none;
+            border-color: #00ddeb;
+            background: rgba(255, 255, 255, 0.12);
+        }
+        .register-button {
+            background: linear-gradient(135deg, #45b7d1, #96c93d);
+            color: #ffffff;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            width: 100%;
+            cursor: pointer;
+        }
+        .register-button:hover {
+            background: linear-gradient(135deg, #5ec3e0, #a8d04f);
+        }
+        .back-link {
+            display: inline-block;
+            color: #a0aec0;
+            font-size: 0.9em;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            color: #00ddeb;
+        }
+        .footer {
+            color: #a0aec0;
+            font-size: 0.9em;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            .logo {
+                font-size: 2.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">EcoSaver</div>
+    <div class="subtitle">Register as Utility Provider</div>
+
+    <form action="ProviderRegisterServlet" method="post">
+        <div class="form-group">
+            <label for="provider_id">Provider ID</label>
+            <input type="text" id="provider_id" name="provider_id" placeholder="Enter provider ID" required>
+        </div>
+        <div class="form-group">
+            <label for="provider_name">Provider Name</label>
+            <input type="text" id="provider_name" name="provider_name" placeholder="Enter provider name" required>
+        </div>
+        <div class="form-group">
+            <label for="zone">Zone</label>
+            <input type="text" id="zone" name="zone" placeholder="Enter operating zone" required>
+        </div>
+        <div class="form-group">
+            <label for="contact">Contact Number</label>
+            <input type="text" id="contact" name="contact" placeholder="Enter contact number" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Create password" required>
+        </div>
+
+        <button type="submit" class="register-button">Register</button>
+    </form>
+
+    <a href="provider_login.html" class="back-link">Already have an account? Login</a>
+
+    <div class="footer">
+        Securely register to access your provider dashboard
+    </div>
+</div>
+</body>
+</html>
