@@ -70,4 +70,3 @@ The system has three roles: **Admin**, **User**, and **Utility Provider**.
 
 ---
 
-## 📂 Project Structure
