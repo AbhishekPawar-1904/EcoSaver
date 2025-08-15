@@ -96,7 +96,7 @@ By centralizing data and offering role-specific features, **EcoSaver** helps red
 
 ---
 
-📜 License
+## 📜 License
 
 This project is for educational purposes.
 
