@@ -48,7 +48,7 @@ By centralizing data and offering role-specific features, **EcoSaver** helps red
 ---
 
 ## ⚙️ Technology Stack
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML5, CSS3
 - **Backend:** Java (Servlets/JSP)
 - **Database:** MySQL
 - **Server:** Apache Tomcat
