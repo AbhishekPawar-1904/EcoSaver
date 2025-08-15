@@ -1,8 +1,13 @@
 # EcoSaver: Household Energy Consumption Tracker
 
 ## 📌 Overview
-**EcoSaver** is a household energy consumption tracking system that helps users monitor energy usage, receive energy-saving tips, and allows utility providers to log consumption data.  
-The system has three roles: **Admin**, **User**, and **Utility Provider**.
+**EcoSaver** is a comprehensive household energy consumption tracking system designed to promote energy efficiency and awareness.  
+It enables **users** to monitor their energy usage in real-time, receive personalized energy-saving tips, and track historical consumption patterns.  
+**Utility providers** can log energy usage data, share actionable tips, and manage their consumer base, while **admins** have complete control over managing providers, users, and consumption records.  
+
+This system aims to bridge the gap between consumers and providers by ensuring transparent energy usage monitoring and encouraging sustainable energy practices.  
+By centralizing data and offering role-specific features, **EcoSaver** helps reduce unnecessary consumption, lowers energy bills, and contributes to environmental conservation.
+
 
 ---
 
@@ -31,7 +36,7 @@ The system has three roles: **Admin**, **User**, and **Utility Provider**.
 
 ## 🗄 Database Design
 
-**Database Name:** `energyDB`
+**Database Name:** `energy_saverdb`
 
 | Table Name        | Columns |
 |-------------------|---------|
@@ -51,7 +56,7 @@ The system has three roles: **Admin**, **User**, and **Utility Provider**.
 
 ---
 
-## 🌟 Core Features
+## 🚀 Core Features
 - Role-based authentication and access control
 - Secure login system for Admin, User, and Utility Provider
 - Energy usage tracking with historical logs
@@ -61,32 +66,41 @@ The system has three roles: **Admin**, **User**, and **Utility Provider**.
 
 ---
 
-## 🚀 Features
-- Secure login for all roles
-- Role-based access control
-- Energy consumption tracking
-- Energy-saving tips management
-- Admin control over utility providers
-
----
-
 ## 🔧 Setup Instructions
 1. **Clone the repository**
    ```bash
    git clone https://github.com/AbhishekPawar-1904/EcoSaver.git
    Import into Eclipse
 
-.Import into Eclipse
-.Open Eclipse → File → Import → Existing Projects into Workspace → Select project folder.
-.Configure Database
-.Create a MySQL database named energyDB.
-.Run the provided SQL script to create tables.
-.Deploy on Tomcat
-.Add project to Tomcat server in Eclipse.
-.Start the server and access via browser.
+### **1. Import into Eclipse**
+- Open **Eclipse IDE**
+- Go to `File` → `Import` → `Existing Projects into Workspace`
+- Select the project folder and click **Finish**
+
+### **2. Configure Database**
+- Create a MySQL database named `energy_saverdb`
+- Run the provided SQL script to create the required tables
+
+### **3. Deploy on Tomcat**
+- In Eclipse, add the project to your configured Apache Tomcat server
+- Start the Tomcat server
+- Open your browser and go to:
+
+
+---
+
+## **📸 Screenshots**
+<img width="1916" height="1071" alt="image" src="https://github.com/user-attachments/assets/efc4f95f-45ed-4d67-8e83-5776add361a5" />
+
+
+---
+
+📜 License
+
+This project is for educational purposes.
+
 
 ---
 
 
-📸 Screenshots
 
