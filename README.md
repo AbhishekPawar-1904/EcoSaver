@@ -67,21 +67,22 @@ By centralizing data and offering role-specific features, **EcoSaver** helps red
 ---
 
 ## 🔧 Setup Instructions
-1. **Clone the repository**
+1. Clone the repository
+
    ```bash
    git clone https://github.com/AbhishekPawar-1904/EcoSaver.git
    Import into Eclipse
 
-### **1. Import into Eclipse**
+### **2. Import into Eclipse**
 - Open **Eclipse IDE**
 - Go to `File` → `Import` → `Existing Projects into Workspace`
 - Select the project folder and click **Finish**
 
-### **2. Configure Database**
+### **3. Configure Database**
 - Create a MySQL database named `energy_saverdb`
 - Run the provided SQL script to create the required tables
 
-### **3. Deploy on Tomcat**
+### **4. Deploy on Tomcat**
 - In Eclipse, add the project to your configured Apache Tomcat server
 - Start the Tomcat server
 - Open your browser and go to:
