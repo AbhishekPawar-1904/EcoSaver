@@ -70,3 +70,23 @@ The system has three roles: **Admin**, **User**, and **Utility Provider**.
 
 ---
 
+## 🔧 Setup Instructions
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YourUsername/EcoSaver.git
+   Import into Eclipse
+
+Import into Eclipse
+Open Eclipse → File → Import → Existing Projects into Workspace → Select project folder.
+Configure Database
+Create a MySQL database named energyDB.
+Run the provided SQL script to create tables.
+Deploy on Tomcat
+Add project to Tomcat server in Eclipse.
+Start the server and access via browser.
+
+---
+
+
+📸 Screenshots
+
